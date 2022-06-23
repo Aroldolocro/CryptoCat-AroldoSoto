@@ -17,7 +17,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          See crypto prycing hola
+          See crypto prycing
         </a>
       </header>
     </div>
