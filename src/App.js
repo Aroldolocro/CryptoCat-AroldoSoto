@@ -1,25 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
 import NavBar from './components/NavBar';
+import ItemListContainer from './components/ItemListContainer';
+
+import './App.css'
 
 function App() {
   return (
     <div className="App">
       <NavBar />
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Welcome to CryptoCat 
-        </p>
-        <a
-          className="App-link"
-          href="https://coinmarketcap.com/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          See crypto prycing
-        </a>
-      </header>
+      <ItemListContainer greeting={"¡Hola! Estamos en construcción."}/>
     </div>
   );
 }

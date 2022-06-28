@@ -1,0 +1,9 @@
+.btn-cc{
+    color: #282c34;
+    transition: 0.3s;
+}
+
+.btn-cc:hover{
+    color: white;
+    background-color: #282c34;
+}
