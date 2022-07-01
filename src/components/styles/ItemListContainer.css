@@ -1,12 +1,12 @@
 .ILC-c{
-    height: 20vh;
-    line-height: 20vh;
+    height: 10vh;
+    line-height: 10vh;
     width: 30%;
     background: rgb(53,58,68);
     background: linear-gradient(0deg, rgba(53,58,68,1) 0%, rgba(78,88,106,1) 100%);
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10vh;
+    margin-top: 5vh;
     border-radius: 20px;
     -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(255,255,255,0); 
     box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(255,255,255,0);
@@ -16,12 +16,4 @@
     text-align: center;
     transition: 0.5s;
     display: block;
-}
-
-.ILC-c:hover{
-    height: 21vh;
-    width: 31%;
-    line-height: 21vh;
-    font-size: 31px;
-    color: white;
 }
